@@ -10,7 +10,7 @@ const Profile = () => {
         <div className='flex flex-col justify-center gap-2 text-center'>
           <h1 className='text-white font-bold text-xl'>Lerian Febriana, A.Md.Kom</h1>
           <p className='text-gray-200 text-sm'>Orangnya suka ngulik, suka penghijauan. Pengen jadi ahli IT 👋🏼</p>
-          <p className='text-gray-200 text-sm'>@kanglerian . Indonesian 🇮🇩 . Coding . Anak IT</p>
+          <p className='text-gray-200 text-sm'>@kanglerian . Indonesian 🇮🇩 . Full Stack Developer . Anak IT</p>
           <Link to={`/experience`} className='text-white hover:text-sky-400 text-sm underline space-x-2'>
             <span className='inline-block'>More Profile</span>
             <i className="fa-solid fa-arrow-up-right-from-square"></i>

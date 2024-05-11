@@ -156,5 +156,15 @@
       ],
       "id": 7
     }
+  ],
+  "tools": [
+    {
+      "name": "fa-react",
+      "id": 1
+    },
+    {
+      "name": "fa-node-js",
+      "id": 2
+    }
   ]
 }
