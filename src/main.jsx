@@ -4,13 +4,18 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom'
+import './assets/css/output.css'
 import Profile from './pages/Profile'
 import Todolist from './pages/Todolist'
+import DetailProfile from './pages/DetailProfile'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Profile/>,
+  },{
+    path: "/profile",
+    element: <DetailProfile/>,
   },{
     path: "/todolist",
     element: <Todolist/>,
