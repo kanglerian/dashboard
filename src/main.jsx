@@ -6,19 +6,19 @@ import {
 } from 'react-router-dom'
 import './assets/css/output.css'
 import Profile from './pages/Profile'
-import Todolist from './pages/Todolist'
-import DetailProfile from './pages/DetailProfile'
+import DetailExperience from './pages/DetailExperience'
+import DetailEducation from './pages/DetailEducation'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Profile/>,
   },{
-    path: "/profile",
-    element: <DetailProfile/>,
+    path: "/experience",
+    element: <DetailExperience/>,
   },{
-    path: "/todolist",
-    element: <Todolist/>,
+    path: "/education",
+    element: <DetailEducation/>,
   },
 ]);
 

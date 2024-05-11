@@ -1,0 +1,160 @@
+{
+  "experiences": [
+    {
+      "name": "E-PMB Politeknik LP3I",
+      "icons": [
+        {
+          "icon": "fa-laravel"
+        },
+        {
+          "icon": "fa-css3"
+        },
+        {
+          "icon": "fa-js"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet",
+      "author": [
+        {
+          "name": "Lerian Febriana, A.Md.Kom"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "SBPMB LP3I",
+      "icons": [
+        {
+          "icon": "fa-react"
+        },
+        {
+          "icon": "fa-css3"
+        },
+        {
+          "icon": "fa-js"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet",
+      "author": [
+        {
+          "name": "Lerian Febriana, A.Md.Kom"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Helpdesk ICT LP3I",
+      "icons": [
+        {
+          "icon": "fa-html5"
+        },
+        {
+          "icon": "fa-css3"
+        },
+        {
+          "icon": "fa-js"
+        },
+        {
+          "icon": "fa-react"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet",
+      "author": [
+        {
+          "name": "Lerian Febriana, A.Md.Kom"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Whatsapp Sender",
+      "icons": [
+        {
+          "icon": "fa-react"
+        },
+        {
+          "icon": "fa-html5"
+        },
+        {
+          "icon": "fa-css3"
+        },
+        {
+          "icon": "fa-js"
+        },
+        {
+          "icon": "fa-whatsapp"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet",
+      "author": [
+        {
+          "name": "Lerian Febriana, A.Md.Kom"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "E-Suggestion LP3I",
+      "icons": [
+        {
+          "icon": "fa-react"
+        },
+        {
+          "icon": "fa-css3"
+        },
+        {
+          "icon": "fa-telegram"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet",
+      "author": [
+        {
+          "name": "Lerian Febriana, A.Md.Kom"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "E-Presence LP3I",
+      "icons": [
+        {
+          "icon": "fa-react"
+        },
+        {
+          "icon": "fa-css3"
+        },
+        {
+          "icon": "fa-whatsapp"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet",
+      "author": [
+        {
+          "name": "Lerian Febriana, A.Md.Kom"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": "Website Politeknik LP3I Tasikmalaya",
+      "icons": [
+        {
+          "icon": "fa-react"
+        },
+        {
+          "icon": "fa-css3"
+        },
+        {
+          "icon": "fa-whatsapp"
+        }
+      ],
+      "description": "Lorem ipsum dolor sit amet",
+      "author": [
+        {
+          "name": "Lerian Febriana, A.Md.Kom"
+        }
+      ],
+      "id": 7
+    }
+  ]
+}
