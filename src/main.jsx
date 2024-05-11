@@ -8,6 +8,7 @@ import './assets/css/output.css'
 import Profile from './pages/Profile'
 import DetailExperience from './pages/DetailExperience'
 import DetailEducation from './pages/DetailEducation'
+import Dashboard from './pages/apps/Dashboard'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,9 @@ const router = createBrowserRouter([
   },{
     path: "/education",
     element: <DetailEducation/>,
+  },{
+    path: "/dashboard",
+    element: <Dashboard/>,
   },
 ]);
 

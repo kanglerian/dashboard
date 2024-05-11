@@ -18,7 +18,7 @@ const Profile = () => {
         </div>
         <section className='flex flex-wrap justify-center items-center gap-2'>
           <Link to={`/todolist`} className='text-white hover:text-sky-400 text-sm underline'>Todolist</Link>
-          <Link to={`/todolist`} className='text-white hover:text-sky-400 text-sm underline'>Dashboard</Link>
+          <Link to={`/dashboard`} className='text-white hover:text-sky-400 text-sm underline'>Dashboard</Link>
           <Link to={`/todolist`} className='text-white hover:text-sky-400 text-sm underline'>Courses</Link>
         </section>
         <section className='flex flex-wrap justify-center items-center gap-2'>
