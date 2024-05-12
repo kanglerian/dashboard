@@ -9,6 +9,8 @@ import Profile from './pages/Profile'
 import DetailExperience from './pages/DetailExperience'
 import DetailEducation from './pages/DetailEducation'
 import Dashboard from './pages/apps/Dashboard'
+import NotFound from './pages/NotFound'
+import Todolist from './pages/apps/Todolist'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,12 @@ const router = createBrowserRouter([
   },{
     path: "/dashboard",
     element: <Dashboard/>,
+  },{
+    path: "/todolist",
+    element: <Todolist/>,
+  },{
+    path: "/courses",
+    element: <NotFound/>,
   },
 ]);
 

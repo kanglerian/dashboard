@@ -35,7 +35,7 @@ const DetailExperience = () => {
       <section className='container mx-auto space-y-10 px-10 md:px-5'>
         <header className='text-center'>
           <h2 className='flex justify-center items-center gap-3 text-2xl font-bold'>
-            <img src={BriefcaseIcon} alt="" className='w-5 h-5' />
+            <img loading="lazy" src={BriefcaseIcon} alt="" className='w-5 h-5' />
             <span className='text-white'>Experience</span>
           </h2>
         </header>
@@ -45,7 +45,7 @@ const DetailExperience = () => {
               {
                 experiences.map((experience, key) =>
                   <p key={key} className='text-gray-300 text-center space-x-2'>
-                    <i class="fa-regular fa-circle-check text-green-500"></i>
+                    <i className="fa-regular fa-circle-check text-green-500"></i>
                     <span className='font-medium'>{experience.title}</span><br />
                     <span className='text-sm'>({experience.company})</span>
                   </p>
@@ -60,7 +60,7 @@ const DetailExperience = () => {
       <section className='container mx-auto space-y-10 px-10 md:px-5'>
         <header className='text-center'>
           <h2 className='flex justify-center items-center gap-3 text-2xl font-bold'>
-            <img src={ToolsIcon} alt="" className='w-5 h-5' />
+            <img loading="lazy" src={ToolsIcon} alt="" className='w-5 h-5' />
             <span className='text-white'>Tools</span>
           </h2>
         </header>
@@ -83,7 +83,7 @@ const DetailExperience = () => {
       <section className='container mx-auto space-y-10 px-10 md:px-5'>
         <header className='text-center'>
           <h2 className='flex justify-center items-center gap-3 text-2xl font-bold'>
-            <img src={laptopCodeIcon} alt="" className='w-5 h-5' />
+            <img loading="lazy" src={laptopCodeIcon} alt="" className='w-5 h-5' />
             <span className='text-white'>Projects</span>
           </h2>
         </header>

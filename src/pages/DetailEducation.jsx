@@ -18,7 +18,7 @@ const DetailEducation = () => {
           <div className='space-y-5'>
             <div className='space-y-3'>
               <h2 className='flex items-center gap-3 text-2xl font-bold'>
-                <img src={DiplomaIcon} alt="" className='w-5 h-5' />
+                <img loading="lazy" src={DiplomaIcon} alt="" className='w-5 h-5' />
                 <span className='text-white'>Education</span>
               </h2>
               <p className='text-gray-300 text-sm'>
