@@ -10,7 +10,7 @@ import DetailExperience from './pages/DetailExperience'
 import DetailEducation from './pages/DetailEducation'
 import Dashboard from './pages/apps/Dashboard'
 import NotFound from './pages/NotFound'
-import Todolist from './pages/apps/Todolist'
+import Productive from './pages/apps/productive/Productive'
 
 const router = createBrowserRouter([
   {
@@ -26,8 +26,8 @@ const router = createBrowserRouter([
     path: "/dashboard",
     element: <Dashboard/>,
   },{
-    path: "/todolist",
-    element: <Todolist/>,
+    path: "/productive",
+    element: <Productive/>,
   },{
     path: "/courses",
     element: <NotFound/>,
